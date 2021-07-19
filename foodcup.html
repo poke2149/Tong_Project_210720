@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>내가 가장 좋아하는 음식은?</title>
+</head>
+<body>
+    <div id="checkImg0" class="box-img">
+        <img class="bg-img0" src="images/background_2.png" alt="">
+        <img id="image" class="cup-img0 btneffect0"alt="음식사진1" onclick="change(0)">
+        <img id="images" class="cup-img1 btneffect0"alt="음식사진2" onclick="change(1)">
+        <a href="home.html"><img class="worldCuphome-btn0 btneffect0" src="images/home.png" alt=""></a>
+        <a href="like.html"><img class="worldCupback-btn0 btneffect0" src="images/back.png" alt=""></a>
+    </div>
+    <div id="checkImg1" class="box-img">
+        <img class="bg-img1" src="images/background_3.png" alt="">
+        <img id="last-img" class="cup-last-img btneffect0">
+        <a href="home.html"><img class="worldCuphome-btn1 btneffect0" src="images/home.png" alt=""></a>
+        <a href="like.html"><img class="worldCupback-btn2 btneffect0" src="images/back.png" alt=""></a>
+        <img class="medal-img" src="images//medal.png" alt="">
+        <img class="particle-l" src="images/particle_l.png" alt="">
+        <img class="particle-2" src="images/paticle_r.png" alt="">
+    </div> 
+    <div id="checkImg2" class="box-img">
+        <img class="bg-img0" id="check_cup" src="" alt="">
+    </div>
+    <audio id="audio" src="mp3/높다낮다.mp3" controls autoplay loop muted = "muted" style="display: none;"></audio>  
+    <audio id="effect_sound2" src="mp3/효과음2.mp3" controls autoplay loop muted = "muted" style="display: none;"></audio>  
+    <script src="js/foodcup.js"></script>
+    <script src="js/sound.js"></script>
+
+</body>
+</html>

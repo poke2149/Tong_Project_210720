@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>나에게 어울리는 직업을 알아볼까요?</title>
+</head>
+
+<body>
+    <div id="que-select" class="box-img">
+        <img class="bg-img0" src="images/btn/page7_1button/page7_background.png" alt="">
+        <img class="screen-img" src="images/btn/page7_1button/screen.png" alt="">
+        <img id="que-img" class="select-txt-bg-img" src="images/btn/page7_1button/q_bg.png" alt="">
+        <img id="clickchoice-yes" src="images/btn/page7_1button/yes.png" class="yes-select-itme btneffect0" onclick="checklist(0)">
+        <img id="clickchoice-maybe" src="images/btn/page7_1button/usually.png" class="maybe-select-itme btneffect0" onclick="checklist(1)">
+        <img id="clickchoice-no" src="images/btn/page7_1button/no.png" class="no-select-itme btneffect0" onclick="checklist(2)">
+        <a href="home.html"><img class="select-home-btn btneffect0" src="images/btn/page7_1button/home.png" alt=""></a>
+        <a href="trevle0.html"><img class="select-back-btn btneffect0" src="images/btn/page7_1button/back.png" alt=""></a>
+        <h3 id="str-question" class="que-item0"></h3>
+        <h3 class="que-mian-txt">내가 가장 좋아하는 활동은?</h3>
+    </div>
+    <div id="que-finish" class="box-img">
+        <img class="bg-img0" src="images/background_2.jpg" alt="">
+        <img class="character-pos" id="character_img" alt="캐릭터 사진">
+        <img class="character-name-pos" id="character_name" alt="캐릭터 사진">
+        <p id="str-explanation" class="finish-item0"></p>
+        <img class="sound-img btneffect0" onclick="play_sound()" src="images/btn/sound_icon.png" alt="사운드아이콘">
+        <a href="home.html"><img class="finish-home-btn btneffect0" src="images/home.png" alt=""></a>
+        <a href="myjob.html"><img class="finish-back-btn btneffect0" src="images/back.png" alt=""></a>
+        <audio id="job_sound" src=""></audio>
+        <h2 class="job-finish-title">나에게 어울리는 진로 유형은?</h2>
+    </div>
+    <audio id="audio" src="mp3/높다낮다.mp3" controls autoplay loop muted = "muted" style="display: none;"></audio>  
+    <audio id="effect_sound2" src="mp3/효과음2.mp3" controls autoplay loop muted="muted" style="display: none;"></audio>
+    <audio id="btn_effect_music" src=""></audio>
+    <script src="js/myjob.js"></script>
+    <script src="js/sound.js"></script>
+
+</body>
+
+</html>

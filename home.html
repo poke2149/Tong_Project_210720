@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>H O M E</title>
+</head>
+<body>
+    <main>
+        <div id="home-main-img" class="box-img">
+            <img class="bg-img0" src="images/web_2page.jpg" alt="">
+            <a href="trevle0.html"><img class="three-img-btn0 btneffect0" src="images/btn/web_2page_btn0.png" alt=""></a>
+            <a href="jobtrevel.html"><img class="three-img-btn1 btneffect0" src="images/btn/web_2page_btn1.png" alt=""></a>
+            <a href="lifetrevel.html"><img class="three-img-btn2 btneffect0" src="images/btn/web_2page_btn2.png" alt=""></a>
+            <div class="txt-home">
+                <h1>H O M E</h1>
+            </div>
+            <img class="three-img-btn3 btneffect0" src="images/btn/reference_btn/web_2page_ref_btn.png" alt="자료실 이미지" onmouseup="move_ref()">
+        </div>
+        <div id="home-ref-img" class="box-img">
+            <img class="bg-img0" src="images/btn/reference_btn/ref_page2_background.png" alt="">
+            
+            <div class="ref-item0">
+                <a href="https://www.youtube.com/channel/UCdEfcjVkis2ne9LnpWMfsvw" target='_blank'>
+                    <img onclick="click_effect_btn_sound()"  class="ref-btn-style btneffect0" src="images/btn/reference_btn/button_1.png" alt="">
+                </a>
+                <a href="https://www.youtube.com/channel/UCdEfcjVkis2ne9LnpWMfsvw" target='_blank'>
+                    <img onclick="click_effect_btn_sound()"  class="ref-btn-style btneffect0" src="images/btn/reference_btn/button_2.png" alt="">
+                </a>
+                <a href="pdf/디지털진로BOOK.pdf" download="디지털진로BOOK">
+                    <img onclick="click_effect_btn_sound()"  class="ref-btn-style btneffect0" src="images/btn/reference_btn/button_3.png" alt="">
+                </a>  
+            </div>  
+            <div class="ref-item0 ref-item1">
+                <a href="pdf/꿈여행가이드북.pdf" download="꿈여행가이드북">
+                    <img onclick="click_effect_btn_sound()"  class="ref-btn-style btneffect0" src="images/btn/reference_btn/button_4.png" alt="">
+                </a>
+                <a href="pdf/자기이해성장노트.pdf" download="자기이해성장노트">
+                    <img onclick="click_effect_btn_sound()"  class="ref-btn-style btneffect0" src="images/btn/reference_btn/button_5.png" alt="">
+                </a>
+                <a href="pdf/생활배움여행자료.pdf" download="생활배움여행자료">
+                    <img onclick="click_effect_btn_sound()"  class="ref-btn-style btneffect0" src="images/btn/reference_btn/button_6.png" alt="">
+                </a>  
+            </div>  
+            <div class="ref-item0 ref-item2">
+                <a href="pdf/직업놀이카드.pdf" download="직업놀이카드">
+                    <img onclick="click_effect_btn_sound()"  class="ref-btn-style btneffect0" src="images/btn/reference_btn/button_7.png" alt="">
+                </a>
+                <a href="pdf/진로관련사이트.pdf" download="진로관련사이트">
+                    <img onclick="click_effect_btn_sound()"  class="ref-btn-style btneffect0" src="images/btn/reference_btn/button_8.png" alt="">
+                </a>
+                <a id="file0" href="" download="">
+                    <img onclick="click_effect_btn_sound()"  onmousedown="clickdownload()" class="ref-btn-style btneffect0"
+                        src="images/btn/reference_btn/button_9.png" alt="">
+                </a>
+                <a id="file1" href=""></a>
+            </div>  
+            <img onclick="back_home_page()" class="ref-home-btn btneffect0" src="images/home.png" alt="">
+            <img onclick="back_home_page()" class="ref-back-btn btneffect0" src="images/back.png" alt="">
+        </div>
+        <audio id="audio" src="mp3/아이들.mp3" controls autoplay loop muted = "muted" style="display: none;"></audio>  
+        <audio id="choice_sound" src="mp3/떠나고싶은여행을선택해주세요.mp3" controls autoplay muted = "muted" style="display: none;"></audio>  
+
+    </main>
+    <audio id="btn_effect_music" src=""></audio>
+
+    <script src="js/reference.js"></script>
+    <script src="js/sound2.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>chatbot</title>
+</head>
+<body onresize="parent.resizeTo(530,870)" onload="parent.resizeTo(600,595)">
+    <div id="select_chat" class="box-img">
+        <img id="top_img" class="chat-top" src="images/chatbot/top.png" alt="">
+        <img class="chat-box0" src="images/chatbot/q.png" alt="">
+        <img id="exp0" class="chat-que0 btneffect0" src="images/chatbot/1/1.png" alt="" onclick="select_exp(0)">
+        <img id="exp1" class="chat-que1 btneffect0" src="images/chatbot/1/2.png" alt="" onclick="select_exp(1)">
+        <img id="exp2" class="chat-que2 btneffect0" src="images/chatbot/1/3.png" alt="" onclick="select_exp(2)">
+        <img id="exp3" class="chat-que3 btneffect0" src="images/chatbot/1/4.png" alt="" onclick="select_exp(3)">
+        <img id="exp4" class="chat-que4 btneffect0" src="images/chatbot/1/5.png" alt="" onclick="select_exp(4)">
+        <img id="choice_exp0" class="select-chat0" src="images/chatbot/1/1_2.png" alt="">
+    </div>
+    <div id="explanation_chat" class="box-img">
+        <img id="choice_exp1" class="select-chat1" src="images/chatbot/1/1_2.png" alt="">
+        <img id="explanation_txt" class="exp0" src="images/chatbot/1/1_a.png" alt="">
+        <img id="chat_q1_pos" class="chat_q1" src="images/chatbot/q1.png" alt="">
+        <img id="exp_yes" class="chat_yes_select btneffect0" src="images/chatbot/yes_2.png" alt="" onclick="change_exp(0)">
+        <img id="exp_no" class="chat_no_select btneffect0" src="images/chatbot/no_2.png" alt="" onclick="change_exp(1)">
+        <img id="url_txt0" class="url_pos0" src="images/chatbot/1/5_a_link1.png" alt="">
+        <img id="url_txt1" class="url_pos1" src="" alt="">
+        <img id="url_txt2" class="url_pos2" src="" alt="">
+        <img id="url_txt3" class="url_pos3" src="" alt="">
+        <img id="url_txt4" class="url_pos4" src="" alt="">
+        <img id="choice_img" class="chat_select_img" src="images/chatbot/no.png" alt="">
+        <img id="open_img" class="chat_open" src="images/chatbot/yes.png" alt="">
+        <img id="close_img" class="chat_close" src="images/chatbot/bye.png" alt="">
+    </div>
+    <audio id="chat_audio" src="chat_sound/m_sound.mp3" controls autoplay loop muted="muted" style="display: none;"></audio>
+    <audio id="chatbot_sound" src=""></audio>
+    <script src="js/chatbot.js"></script>
+
+</body>
+</html>
